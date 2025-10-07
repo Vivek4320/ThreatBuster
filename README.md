@@ -154,22 +154,6 @@ npm start
 # Or deploy to Vercel (recommended)
 vercel --prod
 
-🗺️ Development Roadmap
-mermaidgantt
-    title AI-NGFW Development Timeline
-    dateFormat  YYYY-MM-DD
-    section Phase 1
-    Landing Page Development    :done, 2025-01-01, 2025-03-31
-    Architecture Design        :done, 2025-01-01, 2025-03-31
-    section Phase 2
-    Core ML Models             :active, 2025-04-01, 2025-06-30
-    DPI Engine                 :active, 2025-04-01, 2025-06-30
-    section Phase 3
-    Federated Learning         :2025-07-01, 2025-09-30
-    SOAR Integration          :2025-07-01, 2025-09-30
-    section Phase 4
-    Production Deployment      :2025-10-01, 2025-12-31
-    Certification             :2025-10-01, 2025-12-31
 <details>
 <summary><b>📅 Detailed Milestones</b></summary>
 <br/>
@@ -216,7 +200,9 @@ We welcome contributions from the community!
 AreaDescription🐛 Bug ReportsFound a bug? Open an issue💡 Feature RequestsHave an idea? Share it with us📝 DocumentationImprove our docs and examples🔧 CodeSubmit pull requests for fixes and features🎨 DesignEnhance UI/UX and visual elements
 Development Workflow
 bash
+
 # 1. Fork the repository
+
 # 2. Create your feature branch
 git checkout -b feature/AmazingFeature
 
@@ -250,10 +236,6 @@ See LICENSE file for full details
 📞 Contact & Support
 <div align="center">
 Get in Touch
-Show Image
-Show Image
-Show Image
-Show Image
 <br/>
 Problem Statement: AICTE ID 25160
 Organization: All India Council for Technical Education
