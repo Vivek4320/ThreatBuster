@@ -2,10 +2,6 @@
 🛡️ AI-Driven Next-Generation Firewall
 Intelligent Security for the Modern Threat Landscape
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Deep+Learning+Threat+Detection;Zero+Trust+Architecture;Real-Time+Traffic+Analysis;Federated+Intelligence+Network" alt="Typing SVG" />
-Show Image
-Show Image
-Show Image
-Show Image
 <br/>
 🚀 Live Demo • 📖 Documentation • 🎯 Features • 🔧 Installation
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
@@ -78,12 +74,14 @@ Global Insights: Real-time threat correlation
 </tr>
 </table>
 <div align="center">
-📊 Performance Metrics
-MetricTargetStatus⚡ Detection Latency<1msShow Image🚀 Throughput40+ GbpsShow Image🎯 Accuracy Rate>99.5%Show Image🔐 Zero Trust Coverage100%Show Image
+📊 Performance Metrics MetricTargetStatus
+    ⚡ Detection Latency<1ms
+    🚀 Throughput40+ Gbps
+    🎯 Accuracy Rate>99.5%
+    🔐 Zero Trust Coverage100%
 </div>
 
-🏗️ Architecture
-mermaidgraph TB
+🏗️ Architecture mermaidgraph TB
     A[🌐 Network Traffic] --> B[🔍 DPI Engine]
     B --> C[🧠 AI/ML Models]
     C --> D{Threat Detected?}
@@ -123,7 +121,8 @@ bashNode.js >= 18.x
 npm >= 9.x or yarn >= 1.22.x
 Git
 Installation
-bash# 1️⃣ Clone the repository
+bash
+# 1️⃣ Clone the repository
 git clone https://github.com/yourusername/ai-ngfw-landing.git
 cd ai-ngfw-landing
 
@@ -154,44 +153,6 @@ npm start
 
 # Or deploy to Vercel (recommended)
 vercel --prod
-
-📁 Project Structure
-ai-ngfw-landing/
-│
-├── 📂 src/
-│   ├── 📂 app/
-│   │   ├── 📄 globals.css          # Global styles with animations
-│   │   ├── 📄 layout.tsx           # Root layout with metadata
-│   │   └── 📄 page.tsx             # Main landing page
-│   │
-│   ├── 📂 components/
-│   │   ├── 📂 sections/            # Page sections
-│   │   │   ├── Hero.tsx
-│   │   │   ├── Features.tsx
-│   │   │   ├── Architecture.tsx
-│   │   │   └── CTA.tsx
-│   │   │
-│   │   ├── 📂 ui/                  # Reusable components
-│   │   │   ├── Button.tsx
-│   │   │   ├── Card.tsx
-│   │   │   └── MetricCard.tsx
-│   │   │
-│   │   └── 📄 NGFWLandingPage.tsx  # Main component
-│   │
-│   ├── 📂 lib/
-│   │   └── 📄 utils.ts             # Helper functions
-│   │
-│   └── 📂 types/
-│       └── 📄 index.ts             # TypeScript definitions
-│
-├── 📂 public/
-│   └── 📄 favicon.ico
-│
-├── 📄 tailwind.config.ts           # Tailwind configuration
-├── 📄 next.config.js               # Next.js configuration
-├── 📄 tsconfig.json                # TypeScript configuration
-├── 📄 package.json                 # Dependencies
-└── 📄 README.md                    # Documentation
 
 🗺️ Development Roadmap
 mermaidgantt
@@ -254,7 +215,8 @@ We welcome contributions from the community!
 </div>
 AreaDescription🐛 Bug ReportsFound a bug? Open an issue💡 Feature RequestsHave an idea? Share it with us📝 DocumentationImprove our docs and examples🔧 CodeSubmit pull requests for fixes and features🎨 DesignEnhance UI/UX and visual elements
 Development Workflow
-bash# 1. Fork the repository
+bash
+# 1. Fork the repository
 # 2. Create your feature branch
 git checkout -b feature/AmazingFeature
 
@@ -343,7 +305,6 @@ Zero Trust Architecture
 If this project helps you, please consider giving it a ⭐
 <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
 Star History
-Show Image
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=170&section=footer&text=Built%20with%20%E2%9D%A4%EF%B8%8F%20by%20AI-NGFW%20Team&fontSize=26&fontColor=fff&animation=twinkling&fontAlignY=72"/>
 </div>
