@@ -1,4 +1,4 @@
-// File: C:\Users\vivek\OneDrive\Documents\ThreatBuster\ThreatBuster\app\layout.tsx
+// File: C:\Users\vivek\OneDrive\Documents\ThreatBuster\app\layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
