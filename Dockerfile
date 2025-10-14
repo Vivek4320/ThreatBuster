@@ -13,7 +13,7 @@ COPY . .
 RUN npm install
 
 # Generate Prisma client (add correct target)
-RUN npx prisma generate
+# RUN npx prisma generate
 
 # Build the Next.js app
 RUN npm run build
