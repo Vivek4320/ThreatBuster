@@ -1,9 +1,11 @@
-import { auth, currentUser } from '@clerk/nextjs';
+import { auth, currentUser } from '@clerk/nextjs/server';
 import { NextResponse } from 'next/server';
-import { prisma } from '/prisma';
+import { PrismaClient } from '@prisma/client';
+
+const prisma = new PrismaClient();
 
 export async function GET() {
-  const { userId } = auth();
+  const { userId } = await auth();
   
   if (!userId) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
@@ -29,7 +31,7 @@ export async function GET() {
 }
 
 export async function PUT(request: Request) {
-  const { userId } = auth();
+  const { userId } = await auth();
   
   if (!userId) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
